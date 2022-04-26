@@ -5,7 +5,7 @@ description = ""
 authors = ["Toshiki Kawamoto"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 scikit-learn = "^1.0.2"
 sumeval = "^0.2.2"
 allennlp = "^2.9.3"

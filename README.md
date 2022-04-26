@@ -18,21 +18,21 @@ Set the dataset to `data/`
 ### Preprocess and calculate repeat score  
 ```bash
 export PYTHONPATH='./'
-poetry run python preprocess.py
+poetry run python scripts/preprocess.py
 ```
 
 ### Training
 ```bash
-poetry run python train.py
+poetry run python scripts/train.py
 ```
 
 Or you can download trained model from URL and set it to `models/`
 
-Test
+### Test
 ```bash
-poetry run python test.py
+poetry run python scripts/test.py
 ```
 
 
 ## Citation
-coming soon...
+Coming soon!
