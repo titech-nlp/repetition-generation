@@ -10,7 +10,7 @@ cd repetition-generation
 
 poetry install
 ```
-Download repetition dataset from URL  
+Download repetition dataset from [URL](https://1drv.ms/u/s!AndxLE_vhGP2hk6jZRRC922vPGWt?e=LzTgBl)  
 (License of dataset: CC BY-NC 4.0)
 
 Set the dataset to `data/`
@@ -26,7 +26,7 @@ poetry run python scripts/preprocess.py
 poetry run python scripts/train.py
 ```
 
-Or you can download trained model from URL and set it to `models/`
+Or you can download our trained model from [URL](https://1drv.ms/u/s!AndxLE_vhGP2hk15V7E0Io3jdr7f?e=AmxeLz) and set it to `models/`
 
 ### Test
 ```bash
