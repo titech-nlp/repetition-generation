@@ -1,11 +1,11 @@
+import json
 import os
+
 import MeCab
 import torch
-import json
-
-from torch.utils.data import Dataset
 from sklearn import preprocessing
 from sumeval.metrics.rouge import RougeCalculator
+from torch.utils.data import Dataset
 
 
 class JsonlDataset(Dataset):

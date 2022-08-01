@@ -1,10 +1,10 @@
 import unicodedata
-import torch
 
-from torch.utils.data import DataLoader
-from sklearn.model_selection import KFold
-from transformers import BertJapaneseTokenizer, BertModel, T5Tokenizer
+import torch
 from allennlp.modules.span_extractors import SelfAttentiveSpanExtractor
+from sklearn.model_selection import KFold
+from torch.utils.data import DataLoader
+from transformers import BertJapaneseTokenizer, BertModel, T5Tokenizer
 
 
 def get_subword_span(args, split_data):

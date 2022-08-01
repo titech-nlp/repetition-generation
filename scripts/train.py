@@ -1,13 +1,13 @@
-import os
 import argparse
+import os
+
+import pytorch_lightning as pl
 import torch
 import torch.nn.functional as F
-import pytorch_lightning as pl
-
-from torch.utils.data import DataLoader
-from transformers import AdamW, T5Tokenizer, T5ForConditionalGeneration, get_linear_schedule_with_warmup
-
 from scripts.utils import JsonlDataset
+from torch.utils.data import DataLoader
+from transformers import (AdamW, T5ForConditionalGeneration, T5Tokenizer,
+                          get_linear_schedule_with_warmup)
 
 
 class WeightedLabelSmoothingCrossEntropyLoss(torch.nn.Module):

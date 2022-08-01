@@ -1,13 +1,12 @@
 import argparse
 import collections
-import torch
+
 import numpy as np
-
-from tqdm.auto import tqdm
-from torch.utils.data import DataLoader
-from transformers import T5ForConditionalGeneration, T5Tokenizer
-
+import torch
 from scripts.utils import JsonlDataset
+from torch.utils.data import DataLoader
+from tqdm.auto import tqdm
+from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 
 def main(args):

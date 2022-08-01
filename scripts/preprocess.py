@@ -1,9 +1,10 @@
-import os
-import json
-import MeCab
 import argparse
+import json
+import os
 
-from scripts.repeat_score import get_subword_span, calculate_repeat_score, annotate_word_to_subword
+import MeCab
+from scripts.repeat_score import (annotate_word_to_subword,
+                                  calculate_repeat_score, get_subword_span)
 
 
 def load_dataset(data_type, f_path):
